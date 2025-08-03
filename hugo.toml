@@ -1,3 +1,35 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://blog.vmeta.jp/'
+languageCode = 'ja'
+title = "meta's blog - The Power To Serve"
+#theme = 'hugo-geekblog'
+theme = 'roadster'
+#theme = 'hugo-clarity'
+timeZone = 'Asia/Tokyo'
+
+hasCJKLanguage = true
+defaultContentLanguage = 'ja'
+enableRobotsTXT = true
+
+# 生HTML埋め込みを許可
+[markup.goldmark.renderer]
+unsafe = true
+
+[Params]
+post_meta = [ 'date' ]
+dateFormat = '2006-01-02'
+
+[Params.sidebar]
+home = 'right'
+single = 'right'
+list = 'right'
+
+widgets = [ 'search', 'recent', 'taglist', 'social' ]
+
+[Params.widgets]
+tags_counter = true
+
+[Params.widgets.social]
+github = 'metalefty'
+
+[Params.style.vars]
+highlightColor = '#5690BE'
