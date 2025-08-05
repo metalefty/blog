@@ -10,6 +10,11 @@ hasCJKLanguage = true
 defaultContentLanguage = 'ja'
 enableRobotsTXT = true
 
+#googleAnalytics = 'G-ZWQ5RPWV31'
+
+[security.exec]
+allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$', '^vim$']
+
 # 生HTML埋め込みを許可
 [markup.goldmark.renderer]
 unsafe = true
@@ -17,6 +22,7 @@ unsafe = true
 [Params]
 post_meta = [ 'date' ]
 dateFormat = '2006-01-02'
+pager = true
 
 [Params.sidebar]
 home = 'right'
