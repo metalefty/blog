@@ -3,4 +3,4 @@
 	url = https://github.com/thegeeklab/hugo-geekblog.git
 [submodule "themes/roadster"]
 	path = themes/roadster
-	url = https://github.com/mansoorbarri/roadster.git
+	url = https://github.com/metalefty/roadster.git
