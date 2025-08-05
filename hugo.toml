@@ -34,6 +34,10 @@ widgets = [ 'search', 'recent', 'taglist', 'social' ]
 [Params.widgets]
 tags_counter = true
 
+[Params.widgets.search.input]
+name = "sitesearch"
+pre = "blog.vmeta.jp"
+
 [Params.widgets.social]
 github = 'metalefty'
 
