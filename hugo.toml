@@ -10,7 +10,7 @@ hasCJKLanguage = true
 defaultContentLanguage = 'ja'
 enableRobotsTXT = true
 
-#googleAnalytics = 'G-ZWQ5RPWV31'
+googleAnalytics = 'G-ZWQ5RPWV31'
 
 [security.exec]
 allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$', '^vim$']
